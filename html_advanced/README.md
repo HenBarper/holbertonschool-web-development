@@ -18,3 +18,5 @@ In this project I converted a wireframe into an html document based on a figma e
 6. **What is an Attribute**: Understand HTML attributes and how they are used to provide additional information about HTML elements.
 
 7. **Purpose of Each HTML Tag**: Discover the purpose and usage of common HTML tags to effectively structure and present content on a web page.
+
+![Wire frame](wireframe.jpg)
