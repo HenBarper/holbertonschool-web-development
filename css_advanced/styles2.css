@@ -1,0 +1,101 @@
+header{
+    width: 100%; 
+    height: 100%; 
+    position: relative;
+}
+body{
+    font-family: "Source Sans Pro", sans-serif;
+    color: #FFFFFF;
+}
+.purple{
+    color: #C271FF;
+}
+
+.div-1{
+
+}
+.logo-img{
+    width: 111.83px;
+    height: 12.58px;
+    left: 55.18px;
+    top: 6.52px;
+    position: absolute
+}
+.div-1-1{
+    width: 167.02px;
+    height: 29.46px;
+    left: 0px;
+    top: 0px;
+    position: absolute
+}
+.div-1-2{
+    width: 234px;
+    height: 15px;
+    left: 869.41px;
+    top: 1.98px;
+    position: absolute;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 52px;
+    display: inline-flex
+}
+
+/* BANNER */
+.top-image{
+    background-image: url('images/Banner_BG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner {
+    text-align: center;
+}
+.big-text{
+    font-size: 7rem;
+    font-weight: 700;
+    padding-top: 15rem;
+}
+.banner-tag{
+    font-size: 1rem;
+    /* margin: 200px 30px; */
+    padding-top: 0px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.register_button{
+    width: 162px;
+    height: 44px;
+    background-image: url('images/Register_Button.png');
+    cursor: pointer;
+    border-radius: 25px;
+    color: #FFFFFF;
+}
+.learn-from{
+    padding-top: 12%;
+    padding-bottom: 6%;
+}
+.pros{
+    display: inline-block;
+    width: 20%;
+}
+.pro-photo{
+    border-radius: 90px;
+}
+
+/* TESTIMONIALS */
+
+.testimonials{
+    background-color: #C271FF;
+}
+
+/* MEMBERSHIP */
+
+.membership{
+    background-color: #071629;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #071629;
+}
+

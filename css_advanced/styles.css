@@ -1,0 +1,116 @@
+header{
+    text-align: center;
+    /* align-items: center; */
+    position: absolute;
+    /* background-color: black; */
+    width: 85%; 
+    height: 29px;
+    margin-top: 35px;
+    /* margin-left: 171px; */
+    /* margin-right: 171px; */
+}
+body{
+    font-family: "Source Sans Pro", sans-serif;
+    color: #FFFFFF;
+    margin: 0;
+}
+.purple{
+    color: #C271FF;
+}
+.header-links{
+    display: flex;
+}
+.header-link{
+    /* display: inline-block; */
+    flex: 1;
+}
+.links-box{
+    text-align: right;
+    /* width: 234px;
+    height: 15px;
+    margin-top: 37px;
+    margin-left: 600px; */
+}
+.links-box a{
+    margin-left: 5%;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 0.75rem;
+}
+main{
+    margin: 0;
+    padding: 0;
+}
+
+/* BANNER */
+.top-image{
+    background-image: url('images/Banner_BG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner {
+    text-align: center;
+}
+.big-text{
+    font-size: 7rem;
+    font-weight: 700;
+    padding-top: 15rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.SGL{
+    margin-top: 0px;
+    margin-bottom: 5%;
+}
+.banner-tag{
+    font-size: 1rem;
+    /* margin: 200px 30px; */
+    padding-top: 0px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.register_button{
+    width: 162px;
+    height: 44px;
+    background-image: url('images/Register_Button.png');
+    cursor: pointer;
+    border-radius: 25px;
+    color: #FFFFFF;
+    /* background-size: cover; */
+    /* border: none; */
+}
+.learn-from{
+    padding-top: 12%;
+    padding-bottom: 6%;
+}
+.pros{
+    display: inline-block;
+    width: 20%;
+}
+.pro-photo{
+    border-radius: 90px;
+}
+.lil-ital{
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+/* TESTIMONIALS */
+
+.testimonials{
+    background-color: #C271FF;
+    /* background-color: black; */
+}
+
+/* MEMBERSHIP */
+
+.membership{
+    background-color: #071629;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #071629;
+}
+
