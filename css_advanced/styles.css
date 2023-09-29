@@ -1,13 +1,9 @@
 header{
     text-align: center;
-    /* align-items: center; */
     position: absolute;
-    /* background-color: black; */
     width: 85%; 
     height: 29px;
     margin-top: 35px;
-    /* margin-left: 171px; */
-    /* margin-right: 171px; */
 }
 body{
     font-family: "Source Sans Pro", sans-serif;
@@ -21,15 +17,10 @@ body{
     display: flex;
 }
 .header-link{
-    /* display: inline-block; */
     flex: 1;
 }
 .links-box{
     text-align: right;
-    /* width: 234px;
-    height: 15px;
-    margin-top: 37px;
-    margin-left: 600px; */
 }
 .links-box a{
     margin-left: 5%;
@@ -86,6 +77,7 @@ main{
 .pros{
     display: inline-block;
     width: 20%;
+    margin-bottom: 5%;
 }
 .pro-photo{
     border-radius: 90px;
@@ -99,7 +91,72 @@ main{
 
 .testimonials{
     background-color: #C271FF;
+    display: flex;
     /* background-color: black; */
+}
+.testimonials-img{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 18rem;
+    margin-right: 2rem;
+    flex: 0.5;
+}
+.testimonials-content{
+    flex: 7;
+    margin-left: 0;
+    margin-right: 15rem;
+    font-weight: 400;
+    /* justify-content: flex-start; */
+    align-self: center;
+}
+
+/* VIDEOS */
+
+.videos-section{
+    text-align: center;
+    color: black;
+}
+
+.video-title{
+    margin-top: 5%;
+}
+
+.videos-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 80%;
+}
+.video-box{
+    flex: 1;
+    /* width: 20%; */
+}
+.vid-sub-box{
+    text-align: left;
+    width: 80%;
+    margin-left: 10%;
+}
+.phil-stuff{
+    display: flex;
+}
+.lil-phil{
+    width: 15%;
+    height: 15%;
+    border-radius: 90px;
+}
+.lil-phil-name{
+    font-size: 12px;
+    margin-left: 5%;
+}
+.stars{
+    flex: 1;
+    align-self: center;
+}
+.star-time{
+    flex: 1;
+    /* justify-content: flex-end; */
+    text-align: right;
 }
 
 /* MEMBERSHIP */
