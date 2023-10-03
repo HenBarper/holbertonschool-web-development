@@ -132,6 +132,14 @@ main{
     flex: 1;
     /* width: 20%; */
 }
+.parent{
+    position: relative;
+}
+.play-button{
+    position: absolute;
+    top: 50px;
+    left: 8rem;
+}
 .vid-sub-box{
     text-align: left;
     width: 80%;
@@ -163,11 +171,86 @@ main{
 
 .membership{
     background-color: #071629;
+    text-align: center;
+    margin-top: 8rem;
+    padding-bottom: 3rem;
+}
+.membership-title{
+    padding-top: 5rem;
+}
+.memberships{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+}
+.memberships-individual{
+    flex: 1;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+/* .memberships-individual p{
+    font-weight: 100;
+} */
+
+/* F.A.Q */
+.FAQ{
+    color: #071629;
+    text-align: center;
+}
+.faq-title{
+    font-size: 60px;
+    font-weight: 300;
+}
+.faq-row{
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.faq-square{
+    flex: 1;
+    margin-left: 9rem;
+    margin-right: 9rem;
+    text-align: left;
+}
+.faq-square h2{
+    font-size: 16px;
+}
+.faq-square p{
+    color: #071629;
+    opacity: 50%;
+    font-size: 14px;
+    padding-top: 2rem;
 }
 
 /* FOOTER */
 
 footer{
     background-color: #071629;
+    text-align: center;
+}
+.footer-div{
+    display: flex;
+    padding-top: 5rem;
+    margin-bottom: 5rem;
+}
+.footer-logo{
+    /* max-width: 10%; */
+}
+.footer-links{
+    flex: 1;
+}
+.footer-links a{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+footer p{
+    font-weight: 400;
+    font-size: 12px;
+    opacity: 50%;
+    padding-bottom: 2rem;
 }
 
